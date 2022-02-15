@@ -19,6 +19,7 @@ for tc in range(T):
 
     max = min = sum_list[0]
 
+    # 리스트에 넣는 것보다 바로바로 비교하는게 훨씬 좋음
     for k in range(0, len(sum_list)):
         if max < sum_list[k]:
             max = sum_list[k]

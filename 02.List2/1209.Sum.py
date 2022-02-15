@@ -1,9 +1,12 @@
 import sys
-sys.stdin = open('1209.txt')
+sys.stdin = open('4839.txt')
 
 for tc in range(10):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(100)]
+    # arr = []
+    # for _ in range(100):
+    #   arr.arrpend(list(map(int, input().split()))
 
     sum_lst = [] # 각 합을 구해 저장할 리스트
 
@@ -21,6 +24,8 @@ for tc in range(10):
     n_count = 0  # 우상단에서 시작하는 대각선의 합을 구해 저장할 변수
 
     # 대각선의 합 구하기
+    # 10000번을 반복하는 것
+    # 굳이 읽지 않아도 될 코드를 읽어버림
     for m in range(0, 100):
         for n in range(0, 100):
             if m == n:
@@ -29,6 +34,7 @@ for tc in range(10):
     sum_lst.append(m_count)
     sum_lst.append(n_count)
 
+    # 리스트에 넣는 것보다 바로바로 비교하는게 훨씬 좋음
     max = 0 # 최댓값을 저장할 변수
 
     for k in range(0, len(sum_lst)):
