@@ -5,7 +5,7 @@ sys.stdin = open('1210.txt')
 for tc in range(10):
     N = int(input())
     ladder = [list(map(int, input().split())) for _ in range(100)]
-
+    print(ladder)
     x = 99  # 현재 행 위치
     y = 0  # 현재 열 위치
 

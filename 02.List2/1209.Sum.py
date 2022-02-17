@@ -1,9 +1,10 @@
 import sys
-sys.stdin = open('4839.txt')
+sys.stdin = open('1209.txt')
 
 for tc in range(10):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(100)]
+    print(arr)
     # arr = []
     # for _ in range(100):
     #   arr.arrpend(list(map(int, input().split()))

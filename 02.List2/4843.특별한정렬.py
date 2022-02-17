@@ -8,7 +8,7 @@ for tc in range(T):
     N = int(input())
     arr = list(map(int, input().split()))
 
-    for i in range(0, N-1, 2):
+    for i in range(0, 9, 2):
         max_idx = i
         min_idx = i + 1
         for j in range(i+1, N):
