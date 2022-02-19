@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('1859.txt')
-
+# 시간고려해서 단일 루프로 해 보는 방식을 생각해봐야함
+# 뒤에서부터 접근
 def trade(daily, num, sell):
     if not bool(daily):
         return sell
