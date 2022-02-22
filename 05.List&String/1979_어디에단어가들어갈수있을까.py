@@ -4,7 +4,7 @@ sys.stdin = open('1979.txt')
 def count_arr(N):
     ret = 0 # K길이의 단어가 들어가는 칸 수
     for i in range(N+1):
-        cnt = 0
+        cnt = 0 # 입력 가능 글자수
         for j in range(N + 1):
             if arr[i][j] == 1:
                 cnt += 1 # 입력 가능 글자수

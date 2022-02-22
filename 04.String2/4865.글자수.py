@@ -1,3 +1,5 @@
+# 딕셔너리 응용
+
 import sys
 sys.stdin = open('4865.txt')
 

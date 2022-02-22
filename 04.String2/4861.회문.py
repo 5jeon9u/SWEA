@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('4861.txt')
-# 함수로 만들어봅시다..언제?
+# 단일 구간으로 회문 판단
+# 모든 구간으로 적용
 T = int(input())
 
 for tc in range(T):
