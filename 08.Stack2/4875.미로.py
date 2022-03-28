@@ -42,7 +42,7 @@ for tc in range(1, T + 1):
                 ec = j
 
     dfs(val1, val2)
-    print(visited[er][ec])
+    print(f'#{tc} {visited[er][ec]}')
 
 
 
